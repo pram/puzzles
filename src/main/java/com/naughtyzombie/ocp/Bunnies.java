@@ -1,4 +1,4 @@
-package com.naughtyzombie.bunnies;
+package com.naughtyzombie.ocp;
 
 /* What is the output of this code*/
 
