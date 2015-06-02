@@ -9,3 +9,7 @@ Print the numbers from 1 to 100. If the number is divisible by 3 then print "Fiz
 Print 100 to 1
 
 [Ref](http://www.thousandtyone.com/blog/EasierThanFizzBuzzWhyCantProgrammersPrint100To1.aspx)
+
+## OCP
+
+Puzzles from Java 6 310-065 exam
