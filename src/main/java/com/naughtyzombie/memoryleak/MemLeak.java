@@ -35,6 +35,7 @@ public class MemLeak {
         public void addTask(Task task) {
             tasks.add(task);
             tasks.peek().execute();//Memory leak!
+            //Change to poll to clear leak.
         }
     }
 
