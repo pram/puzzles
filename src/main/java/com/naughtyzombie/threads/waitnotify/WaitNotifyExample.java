@@ -3,7 +3,6 @@ package com.naughtyzombie.threads.waitnotify;
 public class WaitNotifyExample {
 
     public static void main(String[] args) {
-
         ResourceCarrier carrier = new ResourceCarrier();
         ThingNeedingResource thingNeedingResource = new ThingNeedingResource(carrier);
         ThingNeedingResource thingNeedingResource2 = new ThingNeedingResource(carrier);

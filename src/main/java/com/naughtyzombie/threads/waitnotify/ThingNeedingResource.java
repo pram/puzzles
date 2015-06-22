@@ -5,7 +5,6 @@ public class ThingNeedingResource implements Runnable {
     private ResourceCarrier carrier;
 
     public ThingNeedingResource(ResourceCarrier carrier) {
-
         this.carrier = carrier;
     }
 
