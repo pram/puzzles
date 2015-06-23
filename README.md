@@ -13,3 +13,7 @@ Print 100 to 1
 ## OCP
 
 Puzzles from Java 6 310-065 exam
+
+## Fibonacci
+
+Fibonacci problem
