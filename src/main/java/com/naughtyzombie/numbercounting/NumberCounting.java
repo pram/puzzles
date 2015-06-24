@@ -1,5 +1,9 @@
 package com.naughtyzombie.numbercounting;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
@@ -49,6 +53,7 @@ public class NumberCounting {
 
         d /= 2;
 
+        Integer integer = Arrays.stream(A).boxed().collect(Collectors.toList()).stream().reduce(Integer::max).get();
 
 
         return false;
