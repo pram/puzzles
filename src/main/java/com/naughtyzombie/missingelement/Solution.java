@@ -9,7 +9,6 @@ import java.util.stream.IntStream;
 class Solution {
     public int solution(int[] A) {
         int n = A.length;
-        int maxA = Arrays.stream(A).reduce(0, Integer::sum);
         int maxTotal = ((n + 1) * (n + 2)) / 2;
         int totalA = Arrays.stream(A).reduce(0, Integer::sum);
 
