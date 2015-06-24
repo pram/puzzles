@@ -9,10 +9,11 @@ import java.util.stream.IntStream;
 class Solution {
     public int solution(int[] A) {
         int n = A.length;
-        int max = ((n + 1) * (n + 2)) / 2;
+        int maxA = Arrays.stream(A).reduce(0, Integer::sum);
+        int maxTotal = ((n + 1) * (n + 2)) / 2;
         int totalA = Arrays.stream(A).reduce(0, Integer::sum);
-        
-        return max - totalA;
+
+        return maxTotal - totalA;
     }
 
     public static void main(String[] args) {
