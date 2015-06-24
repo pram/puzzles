@@ -31,5 +31,6 @@ class Solution {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.solution(new int[]{3,1,2,4,3}));
+        System.out.println(sol.solution(new int[]{1000,2000}));
     }
 }
