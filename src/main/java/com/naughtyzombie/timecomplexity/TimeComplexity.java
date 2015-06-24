@@ -6,7 +6,7 @@ package com.naughtyzombie.timecomplexity;
 public class TimeComplexity {
     public static void main(String[] args) {
         TimeComplexity tc = new TimeComplexity();
-        int input = 100;
+        int input = 100000;
         tc.slow(input);
         tc.fast(input);
         tc.model(input);
@@ -27,8 +27,8 @@ public class TimeComplexity {
 
     private void fast(int input) {
         long startTime = System.currentTimeMillis();
-        int result = 1;
-        for (int i=0; i <= input; i++) {
+        int result = 0;
+        for (int i=0; i < input; i++) {
             result += (i+1);
         }
         System.out.println("Fast " + result);

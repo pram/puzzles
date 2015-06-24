@@ -17,3 +17,7 @@ Puzzles from Java 6 310-065 exam
 ## Fibonacci
 
 Fibonacci problem
+
+## Time Complexity
+
+Problem: You are given an integer *n*. Count the total of 1 + 2 + . . . + *n*
