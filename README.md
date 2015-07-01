@@ -160,3 +160,13 @@ Complexity:
 expected worst-case time complexity is O(N*log(N));
 expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
 Elements of input arrays can be modified.
+
+## Shiftarray
+
+Given an array of items, for example
+
+    int[] in = {1,2,3,4,5,6,7,8,9}
+
+Write a function to shift the array from a prespecified location in the array. Eg shift 3 will end up with the output
+
+    int[] out = {4,5,6,7,8,9,1,2,3}
