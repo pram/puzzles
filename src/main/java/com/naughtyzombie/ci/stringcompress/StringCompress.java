@@ -19,6 +19,7 @@ public class StringCompress {
         String[] split = str.split("");
         Set<String> charSet = new HashSet<>(split.length);
         StringBuilder sb = new StringBuilder(split.length);
+
         for (String x : split) {
             if (!charSet.contains(x)) {
                 charSet.add(x);
