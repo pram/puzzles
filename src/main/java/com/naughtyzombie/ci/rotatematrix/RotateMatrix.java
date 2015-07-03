@@ -29,10 +29,30 @@ public class RotateMatrix {
         }
     }
 
+    public static void rotate2(int[][] matrix) {
+        int rows = matrix.length;
+        int columns = matrix[0].length;
+
+        System.out.println("rows = " + rows + " columns = " + columns);
+        for (int r = 0; r < rows; r++) {
+            for (int c = 0; c < columns; c++) {
+
+            }
+        }
+    }
+
+    public static void swap(int[][] arr, int row1, int col1, int row2, int col2){
+        int num1 = arr[row1][col1];
+        int num2 = arr[row2][col2];
+        arr[row1][col1] = num2;
+        arr[row2][col2] = num1;
+    }
+
     public static void main(String[] args) {
         int[][] matrix = AssortedMethods.randomMatrix(10, 10, 0, 9);
         AssortedMethods.printMatrix(matrix);
-        rotate(matrix, 10);
+//        rotate(matrix, 10);
+        rotate2(matrix);
         System.out.println();
         AssortedMethods.printMatrix(matrix);
     }
