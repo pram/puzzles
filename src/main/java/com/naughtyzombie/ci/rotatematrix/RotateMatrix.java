@@ -60,7 +60,7 @@ public class RotateMatrix {
     }
 
     public static void main(String[] args) {
-        int[][] matrix = AssortedMethods.randomMatrix(10, 10, 0, 9);
+        int[][] matrix = AssortedMethods.randomMatrix(5, 5, 0, 9);
         AssortedMethods.printMatrix(matrix);
 //        rotate(matrix, 10);
         rotate2(matrix);
