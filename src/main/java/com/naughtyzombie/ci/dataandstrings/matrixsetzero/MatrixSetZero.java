@@ -1,4 +1,4 @@
-package com.naughtyzombie.ci.matrixsetzero;
+package com.naughtyzombie.ci.dataandstrings.matrixsetzero;
 
 import com.naughtyzombie.ci.lib.AssortedMethods;
 

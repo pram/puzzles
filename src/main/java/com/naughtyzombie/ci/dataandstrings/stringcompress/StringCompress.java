@@ -1,6 +1,5 @@
-package com.naughtyzombie.ci.stringcompress;
+package com.naughtyzombie.ci.dataandstrings.stringcompress;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 

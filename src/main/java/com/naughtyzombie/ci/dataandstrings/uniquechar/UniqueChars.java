@@ -1,4 +1,4 @@
-package com.naughtyzombie.ci.uniquechar;
+package com.naughtyzombie.ci.dataandstrings.uniquechar;
 
 /**
  * Created by pram on 02/07/2015.

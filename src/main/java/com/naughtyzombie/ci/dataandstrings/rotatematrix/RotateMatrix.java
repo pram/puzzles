@@ -1,4 +1,4 @@
-package com.naughtyzombie.ci.rotatematrix;
+package com.naughtyzombie.ci.dataandstrings.rotatematrix;
 
 import com.naughtyzombie.ci.lib.AssortedMethods;
 

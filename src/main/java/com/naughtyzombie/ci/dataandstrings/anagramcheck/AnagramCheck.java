@@ -1,4 +1,4 @@
-package com.naughtyzombie.ci.anagramcheck;
+package com.naughtyzombie.ci.dataandstrings.anagramcheck;
 
 import java.util.Arrays;
 

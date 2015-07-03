@@ -1,4 +1,4 @@
-package com.naughtyzombie.ci.stringrotation;
+package com.naughtyzombie.ci.dataandstrings.stringrotation;
 
 /**
  * Created by pram on 03/07/2015.

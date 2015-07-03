@@ -1,4 +1,4 @@
-package com.naughtyzombie.ci.replacestrings;
+package com.naughtyzombie.ci.dataandstrings.replacestrings;
 
 import com.naughtyzombie.ci.lib.AssortedMethods;
 

@@ -1,4 +1,4 @@
-package com.naughtyzombie.ci.stringreverse;
+package com.naughtyzombie.ci.dataandstrings.stringreverse;
 
 /**
  * Created by pram on 02/07/2015.
