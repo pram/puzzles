@@ -170,3 +170,29 @@ Given an array of items, for example
 Write a function to shift the array from a prespecified location in the array. Eg shift 3 will end up with the output
 
     int[] out = {4,5,6,7,8,9,1,2,3}
+    
+## Rotate Matrix
+
+Given an N*N Matrix, rotate the matrix by 90 degrees. So for a Matrix
+
+    * * * ^ * * *
+    * * * | * * *
+    * * * | * * *
+    * * * | * * *
+    
+We want to transform it into
+
+    * * * *
+    * * * *
+    * * * *
+    -- - - >
+    * * * *
+    * * * *
+    * * * *
+    
+Essentially the transformation boils down to the following
+
+    first row of source ------> last column of destination
+    second row of source ------> last but-one column of destination
+    so ... on
+    last row of source ------> first column of destination
