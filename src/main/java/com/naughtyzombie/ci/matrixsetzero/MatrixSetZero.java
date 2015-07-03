@@ -19,20 +19,20 @@ public class MatrixSetZero {
         int rows = matrix.length;
         boolean[] zeroRows = new boolean[rows];
         int columns = matrix[0].length;
-        boolean[] zeroCcolumns = new boolean[columns];
+        boolean[] zeroColumns = new boolean[columns];
 
         for (int r = 0; r < rows; r++) {
             for (int c = 0; c < columns; c++) {
                 if (matrix[r][c] == 0) {
                     zeroRows[r] = true;
-                    zeroCcolumns[c] = true;
+                    zeroColumns[c] = true;
                 }
             }
         }
 
         for (int r = 0; r < rows; r++) {
             for (int c = 0; c < columns; c++) {
-                if (zeroRows[r] || zeroCcolumns[c]) {
+                if (zeroRows[r] || zeroColumns[c]) {
                     matrix[r][c] = 0;
                 }
             }
