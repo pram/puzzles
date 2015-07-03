@@ -7,9 +7,11 @@ import com.naughtyzombie.ci.lib.AssortedMethods;
  */
 public class RotateMatrix {
     public static void rotate(int[][] matrix, int n) {
+        //Layers
         for (int layer = 0; layer < n / 2; ++layer) {
             int first = layer;
             int last = n - 1 - layer;
+            //Elements
             for (int i = first; i < last; ++i) {
                 int offset = i - first;
                 int top = matrix[first][i]; // save top
@@ -59,11 +61,31 @@ public class RotateMatrix {
         arr[row2][col2] = num1;
     }
 
+    public static void rotate3(int[][] matrix) {
+        int n = matrix.length;
+        if (n <= 1) {
+            return; // nothing to do
+        }
+
+        /* layers */
+        for (int i = 0; i < n / 2; i++) {
+            /* elements */
+            for (int j = i; j < n - i - 1; j++) {
+                int saved = matrix[i][j];
+                matrix[i][j] = matrix[n - j - 1][i];
+                matrix[n - j - 1][i] = matrix[n - 1 - i][n - 1 - j];
+                matrix[n - 1 - i][n - 1 - j] = matrix[j][n - 1 - i];
+                matrix[j][n - 1 - i] = saved;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         int[][] matrix = AssortedMethods.randomMatrix(5, 5, 0, 9);
         AssortedMethods.printMatrix(matrix);
 //        rotate(matrix, 10);
-        rotate2(matrix);
+//        rotate2(matrix);
+        rotate3(matrix);
         System.out.println();
         AssortedMethods.printMatrix(matrix);
     }
