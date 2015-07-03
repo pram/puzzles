@@ -30,13 +30,24 @@ public class RotateMatrix {
     }
 
     public static void rotate2(int[][] matrix) {
-        int rows = matrix.length;
-        int columns = matrix[0].length;
+        transpose(matrix);
+        reflect(matrix);
+    }
 
-        System.out.println("rows = " + rows + " columns = " + columns);
-        for (int r = 0; r < rows; r++) {
-            for (int c = 0; c < columns; c++) {
+    public static void reflect(int[][] arr){
+        int size = arr.length;
+        for(int k=0; k < size; k++){
+            for(int i=0; i < Math.floor(size/2); i++){
+                swap(arr, k, i, k, size-i-1);
+            }
+        }
+    }
 
+    public static void transpose(int[][] arr){
+        int size = arr.length;
+        for(int diag = 0; diag < size; diag++){
+            for(int i=diag+1; i<size; i++){
+                swap(arr, diag, i, i, diag);
             }
         }
     }
