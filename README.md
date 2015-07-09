@@ -198,3 +198,18 @@ Essentially the transformation boils down to the following
     second row of source ------> last but-one column of destination
     so ... on
     last row of source ------> first column of destination
+
+## Palindrome Test
+
+Given a string of a write a check to see if it is a palindrome
+
+## Suffix Prefix Test
+
+Given a string of a certain length find a method to return the length of the longest common suffix and prefix of that string.  
+The prefix can consist of the entire string except the last letter.  
+The suffix can consist of the entire string except the first letter.
+
+For example for the string "abbabba", the longest possible prefix is "abbabb" and the longest possible suffix is "bbabba".  
+The longest common prefix and suffix is "bbabb" which means that the method should return 5.
+
+If no common string exists then -1 should be returned.
