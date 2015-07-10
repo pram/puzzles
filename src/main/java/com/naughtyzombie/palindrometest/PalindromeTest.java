@@ -6,11 +6,11 @@ package com.naughtyzombie.palindrometest;
 public class PalindromeTest {
     public static void main(String[] args) {
         PalindromeTest pt = new PalindromeTest();
-        boolean isPalindrome = pt.isPalindrome("aabbgagbbaa");
+        boolean isPalindrome = pt.isPalindrome("abbabba");
         System.out.println(isPalindrome);
     }
 
-    private boolean isPalindrome(String testString) {
+    public boolean isPalindrome(String testString) {
         if (testString.length() < 2)
             return false;
 
