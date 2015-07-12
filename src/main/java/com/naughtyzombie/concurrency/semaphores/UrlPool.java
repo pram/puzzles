@@ -1,4 +1,4 @@
-package com.naughtyzombie.semaphores;
+package com.naughtyzombie.concurrency.semaphores;
 
 import java.net.URL;
 import java.net.URLConnection;
