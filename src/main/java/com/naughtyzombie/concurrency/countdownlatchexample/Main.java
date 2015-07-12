@@ -1,5 +1,10 @@
 package com.naughtyzombie.concurrency.countdownlatchexample;
 
+/*
+we can make several threads start at the same time;
+we can wait for several threads to finish (whereas, for example, the Thread.join() method only lets you wait for a single thread).
+ */
+
 public class Main {
     public static void main(String[] args) {
         boolean result = false;
