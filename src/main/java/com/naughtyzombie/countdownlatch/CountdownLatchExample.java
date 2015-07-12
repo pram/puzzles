@@ -5,6 +5,14 @@ import java.util.concurrent.CountDownLatch;
 /**
  * Demonstrates the use of a CountDownLatch; the DatabaseService must complete initialisation,
  * before the main CountDownLatchDemo1 can perform its own initialisation.
+ *
+ * In pseudocode
+ * Main thread start
+   Create CountDownLatch for N threads
+   Create and start N threads
+   Main thread wait on latch
+   N threads completes there tasks are returns
+   Main thread resume execution
  */
 public class CountdownLatchExample {
 
