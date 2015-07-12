@@ -10,10 +10,13 @@ public class UrlPool {
     
     public UrlPool(URL url, int maximumConnections) {
         this.url = url;
+        //Constructs the Semaphore with max number of permits, this will only allow x clients to concurrently access the server
         available = new Semaphore(maximumConnections, true);
     }
 
     public URLConnection openConnection() throws InterruptedException {
+        //Acquires the available permit
+        //If the available permits are taken, this call will block
         available.acquire();
         System.out.println("Acquire");
         try {
@@ -25,6 +28,7 @@ public class UrlPool {
     }
 
     public void releaseConnection(URLConnection urlConnection) {
+        //Releases a permit making a permit available, this will unblock the acquire call
         available.release();
         System.out.println("Release");
     }
