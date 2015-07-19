@@ -216,3 +216,7 @@ For example for the string "abbabba", the longest possible prefix is "abbabb" an
 The longest common prefix and suffix is "bbabb" which means that the method should return 5.
 
 If no common string exists then -1 should be returned.
+
+# Todo
+
+## find the angle between the hour and minute hand on a analogue clock for any given time.
