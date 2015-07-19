@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/pram/puzzles.svg?branch=master)](https://travis-ci.org/pram/puzzles)
 
-General Puzzles and examples from "Cracking the Coding Interview"
+General Puzzles and examples from "Cracking the Coding Interview".
 
 ## FizzBuzz
 
