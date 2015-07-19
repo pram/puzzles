@@ -220,3 +220,4 @@ If no common string exists then -1 should be returned.
 # Todo
 
 ## find the angle between the hour and minute hand on a analogue clock for any given time.
+## reverse a string
