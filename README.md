@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/pram/puzzles.svg?branch=master)](https://travis-ci.org/pram/puzzles)
 
-General Puzzles and examples from "Cracking the Coding Interview"
+General Puzzles and examples from "Cracking the Coding Interview".
 
 ## FizzBuzz
 
@@ -48,6 +48,7 @@ For example, consider array A such that:
   A[2] = 2
   A[3] = 4
   A[4] = 3
+  
 We can split this tape in four places:
 
 P = 1, difference = |3 ? 10| = 7 
@@ -219,3 +220,8 @@ If no common string exists then -1 should be returned.
 ## Word count
 
 Find the number of occerences of words in a given string
+
+# Todo
+
+## find the angle between the hour and minute hand on a analogue clock for any given time.
+## reverse a string
