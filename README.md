@@ -219,7 +219,7 @@ If no common string exists then -1 should be returned.
 
 ## Word count
 
-Find the number of occerences of words in a given string
+Find the number of occurrences of words in a given string
 
 # Todo
 
