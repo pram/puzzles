@@ -16,7 +16,7 @@ public class SentenceWordCount {
         }
     }
 
-    private Map count(String s) {
+    public Map count(String s) {
         String[] words = s.toLowerCase().split("\\s+");
         Map<String, Integer> wordCounts = new HashMap<String, Integer>();
 
