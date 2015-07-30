@@ -223,5 +223,5 @@ Find the number of occurrences of words in a given string
 
 # Todo
 
-## find the angle between the hour and minute hand on a analogue clock for any given time.
+## find the angle between the hour and minute hand on a analogue clock for any given time. Include seconds, milli and micro
 ## reverse a string
