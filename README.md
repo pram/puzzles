@@ -225,3 +225,4 @@ Find the number of occurrences of words in a given string
 
 ## find the angle between the hour and minute hand on a analogue clock for any given time. Include seconds, milli and micro
 ## reverse a string
+## Given a string find the longest palindrome contained within
