@@ -24,4 +24,23 @@ public class FibonnaciLoop {
             System.out.print(next + "\t");
         }
     }
+    
+    //This implementation works in all cases
+    public int getFib(int nthNum) {
+        int next = 0;
+        int first = 0;
+        int second = 1;
+
+        if (nthNum < 2) {
+            next = nthNum;
+        } else {
+            for (int i = 2; i <= nthNum; i++) {
+                next = first + second;
+                first = second;
+                second = next;
+            }
+        }
+        
+        return next;
+    }
 }
