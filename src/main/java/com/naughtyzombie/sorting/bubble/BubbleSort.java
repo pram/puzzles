@@ -15,7 +15,7 @@ public class BubbleSort {
         int k;
         for (int m = n; m >= 0; m--) {
             for (int i=0; i < n -1; i++) {
-                k = i +1;
+                k = i + 1;
                 if (input[i] > input[k]) {
                     swapNumbers(i,k,input);
                 }
