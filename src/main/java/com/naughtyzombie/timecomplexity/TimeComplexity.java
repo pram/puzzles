@@ -43,4 +43,15 @@ public class TimeComplexity {
         long endTime = System.currentTimeMillis();
         System.out.println("Model total execution time: " + (endTime-startTime) + "ms");
     }
+    
+    //Constant time operation for a range of numbers
+    public int constantSumValues(int start, int end) {
+
+        int sm1 = start-1;
+
+        int x = (sm1 * (sm1 + 1)) / 2;
+        int y = (end * (end + 1)) / 2;
+
+        return y - x;
+    }
 }
