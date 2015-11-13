@@ -11,6 +11,5 @@ import java.util.LinkedList;
 public class LinkedListEnd {
     public static void main(String[] args) {
         LinkedList<String> listOfWords = new LinkedList<>(Arrays.asList(AssortedMethods.getListOfWords()));
-
     }
 }
