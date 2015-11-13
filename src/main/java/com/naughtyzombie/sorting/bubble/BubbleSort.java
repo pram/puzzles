@@ -23,6 +23,21 @@ public class BubbleSort {
             printNumbers(input);
         }
     }
+    
+    //This is a cleaner implementation
+    private void sort(int[] input) {
+        int n = input.length;
+
+        for (int m = n; m >= 0; m--) {
+            for (int i = 0; i < n - 1; i++) {
+                if (input[i] > input [i + 1]) {
+                    int temp = input[i];
+                    input[i] = input[i + 1];
+                    input[i + 1] = temp;
+                }
+            }
+        }
+    }
 
     private void printNumbers(int[] input) {
         for (int i = 0; i < input.length; i++) {
